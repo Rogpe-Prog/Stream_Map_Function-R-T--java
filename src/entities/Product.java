@@ -21,6 +21,10 @@ public class Product {
 	public Double getPrice() {
 		return price;
 	}
+	
+	public static String staticUpperCaseName(Product p) {
+		return p.getName().toUpperCase();
+	}
 		
 	@Override
 	public String toString() {
